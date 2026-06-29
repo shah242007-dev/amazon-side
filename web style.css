@@ -1,11 +1,5 @@
-/* Mobile devices (up to 768px) */
-@media screen and (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
-    height: auto;
-  }
+
+  
 
   .nav-logo {
     width: 100px;
@@ -36,15 +30,7 @@
     font-size: 0.75rem;
     margin-left: 0;
   }
-}
 
-/* Tablets (768px to 1024px) */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .navbar {
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 15px;
-  }
 
   .nav-logo {
     width: 120px;
@@ -64,14 +50,6 @@
   .add-first {
     font-size: 0.85rem;
     margin-left: 10px;
-  }
-}
-
-/* Desktop (above 1024px) — your original layout */
-@media screen and (min-width: 1025px) {
-  .navbar {
-    height: 60px;
-    justify-content: space-evenly;
   }
 
   .nav-logo {
@@ -93,7 +71,7 @@
     font-size: 0.85rem;
     margin-left: 15px;
   }
-}
+
 *{
     margin: 0;
     font-family: Arial;
